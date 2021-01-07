@@ -2,10 +2,21 @@
 
 # lolfec installer
 
+
 install_path="$HOME"
 file_name="lolfec"
 script_name="$file_name.sh"
 file_path="$install_path/$script_name"
+
+source /etc/os-release
+if [ "$NAME" == "Arch Linux" ]
+    then
+        sudo pacman -Syu curl
+    else
+        sudo apt update && sudo apt install curl
+fi
+
+
 
 install() {
     echo -e "\033[0;34m:: \033[0mLolowanie skryptu instalacyjnego..."
