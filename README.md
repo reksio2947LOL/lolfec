@@ -3,14 +3,7 @@ Lepszy niż neofetch i wziumfecz!
 
 # Instalacja
 
-Arch Linux: 
-
-```
-git clone https://github.com/reksio2947LOL/lolfec.git
-cd lolfec && makepkg -si
-```
-
-Pozostałe dystrybucje:
+Wszystkie dystrybucje:
 
 ```
 git clone https://github.com/reksio2947LOL/lolfec.git
